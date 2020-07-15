@@ -1,0 +1,7 @@
+@import url('../__paragraph/place__paragraph.css');
+
+.place__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

@@ -1,0 +1,7 @@
+@import url('./__author/comment__author.css');
+@import url('./__image/comment__image.css');
+@import url('./__blockquote/comment__blockquote.css');
+
+.comment {
+    width: 382px;
+}

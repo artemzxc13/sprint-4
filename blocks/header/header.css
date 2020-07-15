@@ -1,0 +1,295 @@
+@import url('../header/nav/nav.css');
+
+.header {
+    display: flex;
+    position: relative;
+    width: 1184px;
+
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 220px) and (max-width: 374px) {
+
+    .header {
+        display: flex;
+        width: 288px;
+        height: 42px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+
+
+    }
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+    .header__link {
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .header__lang {
+
+
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+
+    .header__link_active {
+
+
+    }
+
+    .header__menu {
+
+        margin-top: 17px;
+    }
+    .header__logo {
+
+    }
+    .nav {
+}
+}
+
+@media screen and (min-width: 375px) and  (max-width: 767px) {
+    .header {
+        display: flex;
+        max-width: 91%;
+        padding-left: 16px;
+        padding-right: 16px;
+
+
+
+        padding-bottom: 48px;
+        padding-top: 16px;
+    }
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        margin-left: 16px;
+    }
+    .header__link {
+        font-size: 18px;
+        line-height: 96.82%;
+        width: 30px;
+    }
+    .header__lang {
+
+
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+
+    .header__link_active {
+        margin-right: 16px;
+
+    }
+
+    .header__menu {
+        margin-left: 40px
+    }
+
+    .nav {
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+
+
+    .header {
+        display: flex;
+        width: 91%;
+        height: 52px;
+
+        padding-bottom: 48px;
+        padding-top: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .header__logo {
+        width: 176.58px;
+        height: 52px;
+    }
+    .header__link {
+        font-size: 24px;
+        line-height: 23px;
+        margin-right:24px;
+    }
+    .header__lang {
+
+
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+
+    .header__link_active {
+        margin-right: 16px;
+
+    }
+
+    .header__menu {
+        margin-left: 16px;
+    }
+    .header__logo {
+        width: 176px;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .header {
+        display: flex;
+        width: 91%;
+
+        height: 52px;
+
+        padding-bottom: 48px;
+        padding-top: 30px;
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+    .header__logo {
+        width: 176.58px;
+        height: 52px;
+
+    }
+    .header__link {
+        font-size: 24px;
+        line-height: 23px;
+
+    }
+    .header__lang {
+
+
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+
+    .header__link_active {
+        margin-right: 16px;
+        font-size: 24px;
+        line-height: 23px;
+
+    }
+
+    .header__menu {
+        margin-left: 16px;
+    }
+    .header__logo {
+        width: 176px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .header {
+        display: flex;
+        width: 93%;
+
+        height: 52px;
+
+        padding-bottom: 0px;
+        padding-top: 30px;
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+    .header__logo {
+        width: 176.58px;
+        height: 52px;
+
+    }
+
+    .header__link {
+        font-size: 24px;
+        line-height: 23px;
+
+    }
+
+    .header__lang {
+
+
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+
+    .header__link_active {
+        margin-right: 16px;
+        font-size: 24px;
+        line-height: 23px;
+
+    }
+
+    .header__menu {
+        margin-left: 16px;
+    }
+
+    .header__logo {
+        width: 176px;
+    }
+}
+@media screen and (min-width: 1440px) {
+
+    .header {
+        display: flex;
+        width: 1184px;
+
+        height: 52px;
+
+        padding-bottom: 48px;
+        padding-top: 30px;
+        padding-right: 128px;
+        padding-left: 128px;
+    }
+
+    .header__logo {
+        width: 176.58px;
+        height: 52px;
+
+    }
+
+    .header__link {
+        font-size: 24px;
+        line-height: 23px;
+
+    }
+
+    .header__lang {
+
+
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+
+    .header__link_active {
+        margin-right: 16px;
+        font-size: 24px;
+        line-height: 23px;
+
+    }
+
+    .header__menu {
+        margin-left: 16px;
+    }
+
+    .header__logo {
+        width: 176px;
+    }
+}
+

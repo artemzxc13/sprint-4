@@ -1,0 +1,10 @@
+@import url('./__span-accent/content-row__span-accent.css');
+@import url('./__main-text/content-row__main-text.css');
+@import url('./__paragraph/content-row__paragraph.css');
+@import url('./__author-data/content-row__author-data.css');
+
+.content-row {
+
+    display: flex;
+    align-content: space-between;
+}

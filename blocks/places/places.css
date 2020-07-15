@@ -1,0 +1,393 @@
+@import url('./place/place.css');
+
+.places {
+    width: 984px;
+
+}
+
+
+@media screen and (min-width: 220px) and (max-width: 374px) {
+
+
+    .places {
+        width: 320px;
+
+
+    }
+    .place {
+        width: 100%;
+        margin: 0px;
+    }
+    .place__image {
+        width: 100%;
+        margin-top: 32px;
+        margin: 0px;
+
+        height: 320px;
+    }
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 169.43%;
+        margin: 16px;
+
+        margin-top: 24px;
+        margin-bottom: 0px;
+
+
+    }
+    .place__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        margin:16px;
+        margin-bottom: 32px;
+        margin-top: 48px;
+
+    }
+    .place__website {
+        display: none;
+    }
+
+}
+
+@media screen and  (min-width: 375px) and (max-width: 767px){
+    .places {
+        width: 100%;
+
+
+    }
+    .place {
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 64px;
+    }
+    .place__image {
+        width: 100%;
+        margin-top: 32px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        height: 100%;
+    }
+    .place__paragraph {
+        width:  91%;
+        margin: 0px;
+        font-size: 16px;
+
+        line-height: 27px;
+        margin-top: 24px;
+        margin-bottom: 0px;
+
+
+    }
+
+    .place__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 48px;
+        margin-bottom: 0px;
+        width: 91%;
+
+
+    }
+    .place__website {
+        display: none;
+    }
+
+    .place__text {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .places {
+        width: 100%;
+
+
+    }
+
+    .place {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        margin: 0px;
+
+    }
+
+    .place__image {
+        width: 340px;
+        margin-right: 28px;
+        height: 340px;
+        margin-left: 24px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        margin-bottom: 24px;
+        line-height: 27px;
+        min-width: 352px;
+        margin-top: 0px;
+
+
+    }
+    .place__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 48%;
+    }
+
+    .place__title {
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        width: 340px;
+        margin-left: 24px;
+        margin-top: 87px;
+        margin-bottom: 40px;
+    }
+
+    .place__website {
+        align-self: flex-end;
+        width: 320px;
+        margin-left: 28px;
+        margin-bottom: 51px;
+
+    }
+
+    .place__url {
+        margin-left: 0px;
+    }
+    .place__url-heading {
+        margin-left: 0px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .places {
+        width: 100%;
+        padding-bottom: 102px;
+
+
+    }
+
+    .place {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding-left: 48px;
+        padding-right: 48px;
+
+
+
+    }
+
+    .place__image {
+        width: 440px;
+        margin-right: 32px;
+        height: 440px;
+
+
+
+    }
+
+    .place__paragraph {
+        font-size: 18px;
+        margin-bottom: 24px;
+        line-height: 30px;
+        min-width: 456px;
+
+
+    }
+    .place__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 48%;
+    }
+
+    .place__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 65px;
+        width: 340px;
+
+        margin-bottom: 60px;
+
+    }
+
+    .place__website {
+        align-self: flex-end;
+        width: 320px;
+        margin-left: 100px;
+
+    }
+
+    .place__url {
+        margin-left: 30px;
+    }
+    .place__url-heading {
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .places {
+        width: 984px;
+        padding-bottom: 102px;
+
+        padding-right: 148px;
+        padding-left: 148px;
+    }
+
+    .place {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 984px;
+        margin:0px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+
+    }
+
+    .place__image {
+        width: 460px;
+        margin-right: 40px;
+        height: 460px;
+
+
+
+    }
+
+    .place__paragraph {
+        font-size: 18px;
+        margin-bottom: 24px;
+        line-height: 30px;
+        width: 484px;
+        margin-top: 0px;
+
+
+
+
+    }
+    .place__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 484px;
+    }
+
+    .place__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 65px;
+        width: 457px;
+        margin-right: 40px;
+        margin-bottom: 60px;
+
+    }
+
+    .place__website {
+        align-self: flex-end;
+        width: 320px;
+        margin-left: 100px;
+        margin-bottom: 60px;
+
+    }
+
+    .place__url {
+        margin-left: -85px;
+    }
+    .place__url-heading {
+        margin-left: -85px;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+
+    .places {
+        width: 984px;
+        padding-bottom: 102px;
+
+        padding-right: 228px;
+        padding-left: 228px;
+    }
+
+    .place {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 984px;
+        margin:0px;
+        padding-top: 72px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .place__image {
+        width: 460px;
+        margin-right: 32px;
+        height: 460px;
+
+
+
+    }
+
+    .place__paragraph {
+        font-size: 18px;
+        margin-top: 0px;
+        line-height: 30px;
+        width: 484px;
+        margin-bottom: 36px;
+
+
+
+    }
+    .place__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 484px;
+    }
+
+    .place__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 65px;
+        width: 457px;
+        margin-right: 40px;
+        margin-bottom: 60px;
+
+    }
+
+    .place__website {
+        align-self: flex-end;
+        width: 320px;
+        margin-left: 100px;
+
+    }
+
+    .place__url {
+        margin-left: -99px;
+    }
+    .place__url-heading {
+        margin-left: -99px;
+    }
+
+}

@@ -1,0 +1,9 @@
+@import url('./__author/footer__author.css');
+@import url('./__link/footer__link.css');
+
+.footer__menu {
+    width: 662px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}

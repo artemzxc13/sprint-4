@@ -1,0 +1,9 @@
+.video__item-bg {
+	display: flex;
+	position: relative;
+    background-size: contain;
+	z-index: 0;
+	width: 583px;
+	border-radius: 5px;
+	z-index: 0;
+}

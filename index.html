@@ -1,0 +1,354 @@
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Путешествия по  России</title>
+    <meta name="author" content="Харитонов Артем">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./blocks/pages/index.css">
+</head>
+<body class="body">
+
+<div class="page">
+
+    <header class="header">
+        <img src="images/logo.svg" class="header__logo" alt="Россия">
+         <!-- Можно лучше: 
+                   Альтернативный текст это очень хорошо, но его можно сделать более осмысленным https://habr.com/ru/post/341810/              
+                -->
+        <nav class="nav">
+            <ul class="header__menu">
+               <!-- Отлично: 
+                       Подходящее использование списка для однородных элементов                       
+                -->
+                <li class="header__lang"><a class="header__link header__link_active" href="#">Ru</a></li>
+                <li class="header__lang"><a class="header__link" href="#">En</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <section class="lead">
+            <h1 class="lead__title">Путешествия <br>    по России</h1>
+            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <img src="images/polka.jpg" class="lead__image" alt="Полка">
+            <p class="lead__caption">ваша полка — верхняя</p>
+            <!-- Можно лучше: 
+                   Тут подойдут более семантичные теги для иллюстрации. Тут идеально подойдет тег figure http://htmlbook.ru/html/figure для картинки с подписью. Подпись соответственно могла бы быть figcaption.   
+                 -->
+        </section>
+
+        <section class="intro">
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__subtitle">Зачем путешествовать по своему дому</p>
+            <div class="content-row">
+                <p class="content-row__main-text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
+                    провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная
+                    с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно
+                    без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая
+                    мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
+                    Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+                <div class="content-row__paragraph">
+                    <p class="content-row__author-data"><span class="content-row__span-accent">Автор текста:</span> Корягин Валентин</p>
+                    <p class="content-row__author-data"><span class="content-row__span-accent">Дата:</span> 08 марта 2011</p>
+                </div>
+            </div>
+            <ul class="intro__text">
+            <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+            <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 16</li>
+            <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
+            <li><span class="intro__span-accent">Аэропортов</span> 241</li>
+            </ul>
+        </section>
+
+        <section class="photo-grid">
+            <img src="./images/train.jpg" alt="Поезд" class="photo-grid__item">
+            <img src="./images/atharva-tulsi.jpg" alt="Поезд" class="photo-grid__item">
+            <img src="./images/tuman.jpg" alt="Туман" class="photo-grid__item">
+            <img src="./images/sochi.jpg" alt="Сочи" class="photo-grid__item">
+            <img src="./images/arisa.jpg" alt="Ариса" class="photo-grid__item">
+            <img src="./images/baikal.jpg" alt="Байкал" class="photo-grid__item">
+            <img src="./images/elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
+            <img src="./images/kondratiev.jpg" alt="Кондратьев" class="photo-grid__item">
+            <img src="./images/kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item">
+            <img src="./images/kamchatka-2.jpg" alt="Камчатка-2" class="photo-grid__item">
+            <img src="./images/baikal-2.jpg" alt="Байкал-2" class="photo-grid__item">
+            <img src="./images/ergaki.jpg" alt="Ергаки" class="photo-grid__item">
+        </section>
+
+        <section class="places">
+            <div class="place">
+                <h2 class="place__title">Куршская коса</h2>
+                <div class="place__website">
+                    <p class="place__url-heading">url</p>
+                    <a class="place__url" href="http://park-kosa.ru/" target="_blank">park-kosa.ru</a>
+                </div>
+                <img src="./images/kosa.jpg" class="place__image" alt="Коса">
+                <div class="place__text">
+                    <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+                        горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
+                        моря с другой. Уникальная природная зона на краю российского анклава.</p>
+                    <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и
+                        исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое
+                        наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
+                        спокойствие природы и запах стального, прохладного моря.</p>
+                </div>
+            </div>
+
+            <div class="place">
+                <h2 class="place__title">Кольский</h2>
+                <div class="place__website">
+                    <p class="place__url-heading">URL</p>
+                    <a class="place__url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy/" target="_blank">National Geographic</a>
+                </div>
+                <img src="./images/kolsky.jpg" class="place__image" alt="Кольский">
+                <div class="place__text">
+                    <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
+                        от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+                    <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического
+                        фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний
+                        об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой
+                        скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние
+                        начинает сбываться с билетом в Мурманск.</p>
+                </div>
+            </div>
+
+            <div class="place">
+                <h2 class="place__title">Алтай</h2>
+                <div class="place__website">
+                    <p class="place__url-heading">URL</p>
+                    <a class="place__url" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+                </div>
+                <img src="./images/altai.jpg" class="place__image" alt="Алтай">
+                <div class="place__text">
+                    <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор:
+                        если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы
+                        откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
+                    <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы
+                        увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают
+                        орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
+                </div>
+            </div>
+
+            <div class="place">
+                <h2 class="place__title">Зимний Байкал</h2>
+                <div class="place__website">
+                    <p class="place__url-heading">URL</p>
+                    <a class="place__url" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+                </div>
+                <img src="./images/winter-baikal.jpg" class="place__image" alt="Зимний Байкал">
+                <div class="place__text">
+                    <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
+                        что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
+                    <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
+                        скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается
+                        развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был
+                        поставлен мировой рекорд — 197.011 км/ч.</p>
+                </div>
+            </div>
+
+            <div class="place">
+                <h2 class="place__title">Карелия</h2>
+                <div class="place__website">
+                    <p class="place__url-heading">URL</p>
+                    <a class="place__url" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
+                </div>
+                <img src="./images/karelia.jpg" class="place__image" alt="Карелия">
+                <div class="place__text">
+                    <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+                        лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
+                        национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше
+                        чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван
+                        Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
+                        в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2 class="content-title">В глубины Земли <br> и в дальний космос</h2>
+            <h3 class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</h3>
+            <div class="video__container">
+                <a href="https://vimeo.com/81106671" target="_blank" class="video__item">
+                    <div class="video__icon video__icon_type_play"></div>
+                    <p class="video__duration time">6:30</p>
+                    <h4 class="video__title p1">Colors of Kamchatka</h4>
+                    <h5 class="video__subtitle">Director: Pavel Karykhalin</h5>
+                </a>
+                <a href="https://vimeo.com/290675450" target="_blank" class="video__item">
+                    <div class="video__icon video__icon_type_play"></div>
+                    <p class="video__duration">24:45</p>
+                    <h4 class="video__title">Обсерватория | Observatory</h4>
+                    <h5 class="video__subtitle">Director: Alexander Khudokon</h5>
+                </a>
+            </div>
+        </section>
+
+        <section class="comments">
+            <h2 class="content-title">Фотографы, снимающие Россию</h2>
+            <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+            <div class="comments__container">
+                <div class="comment">
+                    <img class="comment__image" src="./images/lyagushkin.jpg" alt="Лягушкин">
+
+                    <p class="comment__blockquote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+                    <p class="comment__author">Виктор Лягушкин</p>
+                     <!-- Можно лучше:
+                           Для цитат есть замечательный тег blockquote                       
+                        -->
+
+                </div>
+                <div class="comment">
+                    <img class="comment__image" src="./images/hafizov.jpg" alt="Хафизов">
+
+                    <p class="comment__blockquote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
+                        фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью,
+                        рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                    <p class="comment__author">Иван Хафизов</p>
+
+                </div>
+                <div class="comment">
+                    <img class="comment__image" src="./images/maksimshin.jpg" alt="Максимишин">
+
+                    <p class="comment__blockquote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты
+                        покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+                    <p class="comment__author">Сергей Максимишин</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cover">
+            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                <h2 class="cover__title">До Байкала  «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+            </a>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <ul class="footer__menu">
+            <li  class="footer__link" >Карты<a href="https://yandex.ru/maps" target="_blank"></a></li>
+            <li class="footer__link" >Погода<a href="https://yandex.ru/pogoda" target="_blank"></a></li>
+            <li class="footer__link" >Расписание<a href="https://rasp.yandex.ru/" target="_blank"></a></li>
+            <li class="footer__link" >Календарь<a href="https://calendar.yandex.ru" target="_blank"></a></li>
+            <li class="footer__link">Путешествия<a href="https://travel.yandex.ru/" target="_blank"></a></li>
+
+        </ul>
+        <p class="footer__author">© 2019. Харитонов Артем</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
+
+<!-- Работа принята. -->
+
+<!--
+  6 итерация: 
+  
+  768:
+  
+  - lead__subtitle до сих пор не по центру страницы и дальше до 1440 тоже  +
+  - footer__author должен выравниваться по правому краю футера (футер сейчас к тому же не по центру страницы) +
+  
+  1024-1280: 
+  
+  - lead__title не по центру страницы  +
+  - lead__caption по центру, а нужно по левому краю     +
+  
+  1280:
+  
+  - lead__title не по центру экрана (сделал )   +
+    - place ширина теперь правильна, но блок расположен не по центру и на 1440 тоже +
+  - place__text должен быть выровнен по верху картинки +
+  
+  1440:
+  
+  - непраивльная ширина хэдера  ( сейчас ширина от начала хэдера до конца навигации 1090 ) +
+  - в .comments непраивльная ширина карточек комментариев (cделал)  +
+
+  Я извиняюсь конечно ну я до последнего не верил что текст прилипает к краю , я уже на макбуке проверил и убедился что
+  он в боку.
+
+-->
+
+
+<!-- 
+ 
+ Уже очень близко к макету, но есть отклонения на брейкпоинтах: 
+  
+  320: 
+  
+  - intro__text прилип к краю экрана   (выполнено)
+  - cover__title и cover__subtitle не должны абсолютно позиционировать на всех ширинах, а должны сохранять постоянные отступы (на 375 тоже) (выполнено)
+  - нет отступа после footer__menu (на 375 тоже) (выполнено)
+  - до сих пор нет из-за абсолютного позиционирования для .footer__author, не нужно его позиционировать абсолютно(выполнил)
+      
+  Между 320 и 768: 
+    - content-subtitle в comments прилипает к левому краю  (выполнил)
+    - cover должен тянуться на всю ширину страницы  (выполнил)
+       
+  768:
+  
+  - lead__caption неправильный правый отступ (выполнил)
+  - из-за абсолютного позиционирования для .footer__author он упал вниз относительно меню  (выполнил)
+  
+  Между 768 и 1024 / 1024 и 1280 / 1280 и 1440: 
+  - большинство блоков прилипают к левому краю и не тянутся на всю ширину. У адаптива есть два подхода:
+      1. Фиксировать ширину контента от ближайшего брейкпоинта (например, тут это с 768) и располагать по середине экрана
+      2. Тянуть все элементы от края до края, соблюдая отступы до краев экрана, где ширина фиксирована - оставлять по центру
+      (выполнил)
+  
+  1024: 
+  
+  - НЕ ИСПРАВЛЕНО: у content-title в comments должна быть ширина меньше, для правильного переноса текста (выполнил)
+  - content-title и content-subtitle в video должен быть по центру, сейчас по левому краю (выполнил)
+
+  
+  1280 и 1440:
+ 
+  - у шапки неправильные отступы от краёв экрана 
+  - place__website не на месте 
+  - в video и comments content-subtitle не по центру 
+  - в comment фото не по центру 
+  
+     (выполнил)
+
+
+  Что надо исправить помимо замечаний в коде:
+
+    - pages это не блок и из этого файла нужно удалить все стили для page  (выполнено)
+    - У БЭМ-блоков не может быть марджинов, это лишает их независимости https://ru.bem.info/forum/1191/ - .comments, .nav, .content-row, .place , .content-title,  .content-subtitle, .p1,
+   (выполнено)
+
+
+
+  Что понравилось:
+   
+   - Грамотное использование БЭМ 
+   - Подбор семантичных тегов 
+   - Использование файловой структуры по БЭМ
+   - Использование гридов
+   
+
+    Можно лучше: 
+                            
+    - Использовать более семантичные теги.
+    - Использовать выравнивание кода и единообразные вертикальные отступы 
+    - Понятнее описывать альтернативный текст у картинок 
+    - Реализовать файловую структуру по БЭМ
+    - Не использовать br 
+                            
+    Комментарии "можно лучше" носят рекомендательный характер, их выполнение остается на Ваше усмотрение.
+    Комментарии "надо исправить" являются обязательными, только при выполнении всех "надо исправить" работа будет зачтена.
+    Пожалуйста, не удаляйте комментарии до следующей итерации.
+    Для вашего удобства, рекомендую помечать каким-нибудь символом комментарии, которые вы выполнили.
+                             
+-->

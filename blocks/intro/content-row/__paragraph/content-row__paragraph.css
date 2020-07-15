@@ -1,0 +1,4 @@
+.content-row__paragraph {
+    display: flex;
+    flex-direction: column;
+}
